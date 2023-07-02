@@ -1,9 +1,17 @@
-import "./App.css";
-
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import Signup from "./components/Signup";
+import Login from "./components/Login";
+import Navbar from "./components/Navbar";
 function App() {
   return (
-    <div>
-      <h1 className="font-bold text-3xl text-center">Hello World</h1>
+    <div className="font-[Montserrat]">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="login" element={<Login />} />
+        <Route path="signup" element={<Signup />} />
+      </Routes>
     </div>
   );
 }
