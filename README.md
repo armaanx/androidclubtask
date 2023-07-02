@@ -6,4 +6,6 @@
 <br/>
 --npm run dev
 <br/>
+--add your firebase credentials in firebase.js or .env file
+<br/>
 --visit localhost:5173
