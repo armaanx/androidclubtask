@@ -1,0 +1,4 @@
+--Clone this repository.
+--cd into the directory
+--npm install
+--npm run dev
